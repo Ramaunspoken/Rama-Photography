@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>On-Scroll 3D Grid Animations | Codrops</title>
+		<meta name="description" content="On-scroll animations for perspective image grids with different layouts." />
+		<meta name="keywords" content="on scroll animation, 3d, image grid, perspective, gsap, javascript, css grid" />
+		<meta name="author" content="Codrops" />
+		<link rel="stylesheet" type="text/css" href="css/base.css" />
+		<script>document.documentElement.className="js";var supportsCssVars=function(){var e,t=document.createElement("style");return t.innerHTML="root: { --tmp-var: bold; }",document.head.appendChild(t),e=!!(window.CSS&&window.CSS.supports&&window.CSS.supports("font-weight","var(--tmp-var)")),t.parentNode.removeChild(t),e};supportsCssVars()||alert("Please view this demo in a modern browser that supports CSS Variables.");</script>
+		<script src="//tympanus.net/codrops/adpacks/analytics.js"></script>
+	</head>
+	<body class="loading">
+		<main>
+			<div class="frame">
+				<a class="frame__back" href="">R.P</a>
+				<a class="frame__prev" href="">About Us</a>
+			</div>
+			<div class="intro"> 
+				<h1 class="intro__title"> 
+					<span class="intro__title-pre">Welcome</span> 
+					<span class="intro__title-sub">Ramah Photography</span> 
+					<div class="container">
+						<p class="text">
+						Amoh
+						</p>
+					</div>
+				</h1> 
+				<span class="intro__info">Scroll moderately to fully experience the animations</span> 
+			</div>
+			<section class="content">				
+				<div class="grid grid--1">
+					<div class="grid-wrap">
+						<div class="grid__item"><div class="grid__item-inner" style="background-image:url(img/1.jpg)"></div></div>
+						<div class="grid__item"><div class="grid__item-inner" style="background-image:url(img/2.jpg)"></div></div>
+						<div class="grid__item"><div class="grid__item-inner" style="background-image:url(img/3.jpg)"></div></div>
+						<div class="grid__item"><div class="grid__item-inner" style="background-image:url(img/4.jpg)"></div></div>
+						<div class="grid__item"><div class="grid__item-inner" style="background-image:url(img/5.jpg)"></div></div>
+						<div class="grid__item"><div class="grid__item-inner" style="background-image:url(img/6.jpg)"></div></div>
+						<div class="grid__item"><div class="grid__item-inner" style="background-image:url(img/7.jpg)"></div></div>
+						<div class="grid__item"><div class="grid__item-inner" style="background-image:url(img/8.jpg)"></div></div>
+						<div class="grid__item"><div class="grid__item-inner" style="background-image:url(img/9.jpg)"></div></div>
+						<div class="grid__item"><div class="grid__item-inner" style="background-image:url(img/10.jpg)"></div></div>
+						<div class="grid__item"><div class="grid__item-inner" style="background-image:url(img/11.jpg)"></div></div>
+						<div class="grid__item"><div class="grid__item-inner" style="background-image:url(img/12.jpg)"></div></div>
+						<div class="grid__item"><div class="grid__item-inner" style="background-image:url(img/13.jpg)"></div></div>
+						<div class="grid__item"><div class="grid__item-inner" style="background-image:url(img/14.jpg)"></div></div>
+						<div class="grid__item"><div class="grid__item-inner" style="background-image:url(img/15.jpg)"></div></div>
+						<div class="grid__item"><div class="grid__item-inner" style="background-image:url(img/16.jpg)"></div></div>
+						<div class="grid__item"><div class="grid__item-inner" style="background-image:url(img/17.jpg)"></div></div>
+						<div class="grid__item"><div class="grid__item-inner" style="background-image:url(img/18.jpg)"></div></div>
+						<div class="grid__item"><div class="grid__item-inner" style="background-image:url(img/19.jpg)"></div></div>
+						<div class="grid__item"><div class="grid__item-inner" style="background-image:url(img/20.jpg)"></div></div>
+						<div class="grid__item"><div class="grid__item-inner" style="background-image:url(img/21.jpg)"></div></div>
+						<div class="grid__item"><div class="grid__item-inner" style="background-image:url(img/22.jpg)"></div></div>
+						<div class="grid__item"><div class="grid__item-inner" style="background-image:url(img/23.jpg)"></div></div>
+						<div class="grid__item"><div class="grid__item-inner" style="background-image:url(img/24.jpg)"></div></div>
+						<div class="grid__item"><div class="grid__item-inner" style="background-image:url(img/25.jpg)"></div></div>
+						<div class="grid__item"><div class="grid__item-inner" style="background-image:url(img/26.jpg)"></div></div>
+						<div class="grid__item"><div class="grid__item-inner" style="background-image:url(img/27.jpg)"></div></div>
+						<div class="grid__item"><div class="grid__item-inner" style="background-image:url(img/28.jpg)"></div></div>
+						<div class="grid__item"><div class="grid__item-inner" style="background-image:url(img/29.jpg)"></div></div>
+						<div class="grid__item"><div class="grid__item-inner" style="background-image:url(img/30.jpg)"></div></div>
+						<div class="grid__item"><div class="grid__item-inner" style="background-image:url(img/31.jpg)"></div></div>
+						<div class="grid__item"><div class="grid__item-inner" style="background-image:url(img/32.jpg)"></div></div>
+						<div class="grid__item"><div class="grid__item-inner" style="background-image:url(img/33.jpg)"></div></div>
+						<div class="grid__item"><div class="grid__item-inner" style="background-image:url(img/34.jpg)"></div></div>
+						<div class="grid__item"><div class="grid__item-inner" style="background-image:url(img/35.jpg)"></div></div>
+						<div class="grid__item"><div class="grid__item-inner" style="background-image:url(img/36.jpg)"></div></div>
+						<div class="grid__item"><div class="grid__item-inner" style="background-image:url(img/37.jpg)"></div></div>
+						<div class="grid__item"><div class="grid__item-inner" style="background-image:url(img/38.jpg)"></div></div>
+						<div class="grid__item"><div class="grid__item-inner" style="background-image:url(img/39.jpg)"></div></div>
+						<div class="grid__item"><div class="grid__item-inner" style="background-image:url(img/40.jpg)"></div></div>
+						<div class="grid__item"><div class="grid__item-inner" style="background-image:url(img/41.jpg)"></div></div>
+						<div class="grid__item"><div class="grid__item-inner" style="background-image:url(img/42.jpg)"></div></div>
+						<div class="grid__item"><div class="grid__item-inner" style="background-image:url(img/43.jpg)"></div></div>
+						<div class="grid__item"><div class="grid__item-inner" style="background-image:url(img/44.jpg)"></div></div>
+						<div class="grid__item"><div class="grid__item-inner" style="background-image:url(img/45.jpg)"></div></div>
+						<div class="grid__item"><div class="grid__item-inner" style="background-image:url(img/46.jpg)"></div></div>
+						<div class="grid__item"><div class="grid__item-inner" style="background-image:url(img/47.jpg)"></div></div>
+						<div class="grid__item"><div class="grid__item-inner" style="background-image:url(img/48.jpg)"></div></div>
+					</div>
+				</div>
+				<h3 class="content__title content__title--right content__title--top">Fleeting moments, <br>memories  existence's.</h3>
+			</section>
+            
+            <section class="post container">
+				<!--Post Box 1-->
+				<div class="post-box mobile">
+					<img src="img/PhotoshopCombined.jpg" alt="" class="post-img">
+					<h2 class="category">Adobe Photoshop</h2>
+					<a href="post-page.html" class="post-title">
+						How To Edit With Photoshop
+					</a>
+					<span class="post-date">19 Nov 2022</span>
+					<p class="post-description">Adobe Photoshop is a raster graphics editor developed and published by Adobe Inc. for Windows and macOS. It was originally created in 1987 by Thomas and John Knoll. Since then, the software has become the most used tool for professional digital art, especially in raster graphics editing
+					</p>
+					<!---Profile-->
+					<div class="profile">
+						<img src="img/DSC_0003 copy.jpg" alt="" class="profile-img">
+						<span class="profile-name">Stephen Wanjiku</span>
+					</div>
+				</div>
+				<!--Post Box 2-->
+				<div class="post-box tech">
+					<img src="img/premiere-pro3.png" alt="" class="post-img">
+					<h2 class="category">Adobe Premier Pro</h2>
+					<a href="post-page2.html" class="post-title">
+						How Edit Videos With Adobe Premier Pro
+					</a>
+					<span class="post-date">25 Nov 2022</span>
+					<p class="post-description">Adobe Premiere Pro is the leading video editing software for film, TV, and the web. Creative tools, integration with other Adobe apps and services help you craft footage into polished films and videos in one seamless workflow. And Premiere Rush, our new app, is included with your subscription so you can capture footage and start editing on all your devices, anywhere.
+					</p>
+					<!---Profile-->
+					<div class="profile">
+						<img src="img/DSC_0003 copy.jpg" alt="" class="profile-img">
+						<span class="profile-name">Stephen Wanjiku</span>
+					</div>
+				</div>
+				<div class="post-box tech">
+					<img src="img/pexels-josh-sorenson-1034812.jpg" alt="" class="post-img">
+					<h2 class="category">Video and Drone</h2>
+					<a href="post-page4.html" class="post-title">
+						How to shoot Drone Videos
+					</a>
+					<span class="post-date">25 Nov 2022</span>
+					<p class="post-description">An unmanned aerial vehicle (UAV), commonly known as a drone, is an aircraft without any human pilot, crew, or passengers on board. UAVs were originally developed through the twentieth century for military missions too "dull, dirty or dangerous" for humans, and by the twenty-first, they had become essential assets to most militaries. As control technologies improved and costs fell, their use expanded to many non-military applications.
+					</p>
+					<!---Profile-->
+					<div class="profile">
+						<img src="img/DSC_0003 copy.jpg" alt="" class="profile-img">
+						<span class="profile-name">Stephen Wanjiku</span>
+					</div>
+				</div>
+				<!--Post Box 3-->
+		
+				<div class="post-box mobile">
+					<img src="img/post-4.jpg" alt="" class="post-img">
+					<h2 class="category">Camera and Photography</h2>
+					<a href="post-page3.html" class="post-title">
+						Camera adjustments & Settings
+					</a>
+					<span class="post-date">30 Nov 2022</span>
+					<p class="post-description"> Photography is the art, application, and practice of creating durable images by recording light, either electronically by means of an image sensor, or chemically by means of a light-sensitive material such as photographic film. It is employed in many fields of science, manufacturing (e.g., photolithography), and business, as well as its more direct uses for art, film and video production, recreational purposes, hobby, and mass communication
+					</p>
+					<!---Profile-->
+					<div class="profile">
+						<img src="img/DSC_0003 copy.jpg" alt="" class="profile-img">
+						<span class="profile-name">Stephen Wanjiku</span>
+					</div>
+				</div>
+			
+				<!---Testimonials-->
+				<div class="post-box testimony">
+					<img src="img/adobe-illustrator.jpg" alt="" class="post-img">
+					<h2 class="category">Adobe Illustrator</h2>
+					<a href="post-page5.html" class="post-title">
+						Designs
+					</a>
+					<span class="post-date">19 Mar 2023</span>
+					<p class="post-description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos error,
+						ipsa voluptatum dolor, explicabo, officia laborum dolore exercitationem ex iure reiciendis tenetur 
+						est itaque similique nemo totam repellat quos hic.
+					</p>
+					<!---Profile-->
+					<div class="profile">
+						<img src="img/DSC_3902 copy.jpg" alt="" class="profile-img">
+						<span class="profile-name">Sherina Kawera</span>
+					</div>
+				</div>
+				<!--Post Box 2-->
+				<div class="post-box testimony">
+					<img src="img/post-2.jpg" alt="" class="post-img">
+					<h2 class="category">Testimonials</h2>
+					<a href="post-page.html" class="post-title">
+						Comments
+					</a>
+					<span class="post-date">19 Mar 2023</span>
+					<p class="post-description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos error,
+						ipsa voluptatum dolor, explicabo, officia laborum dolore exercitationem ex iure reiciendis tenetur 
+						est itaque similique nemo totam repellat quos hic.
+					</p>
+					<!---Profile-->
+					<div class="profile">
+						<img src="img/DSC_0051 copy.jpg" alt="" class="profile-img">
+						<span class="profile-name">June Wanjiru</span>
+					</div>
+				</div>
+			</section>
+            <section class="main">
+				<h2 class="sub-heading">COmMEnTS</h2>
+				<div class="full-boxer">
+					<div class="comment-box">
+						<div class="box-top">
+							<div class="profil">
+								<div class="profil-image">
+									<img src="Img/THP_27471.jpg">
+								</div>
+								<div class="Name">
+									<strong>Ian  Kalefty</strong>
+									<span>@Kalefty KE</span>
+								</div>
+							</div>
+						</div>
+						<div class="comment">
+							<p>
+								Lorem, ipsum dolor sit amet consectetur elit. ducimus vero sed odit, 
+								exercitationem impedit amet tempora molestias quae odio repellat.
+							</p>
+						</div>
+					</div>
+		
+					<div class="comment-box">
+						<div class="box-top">
+							<div class="profil">
+								<div class="profil-image">
+									<img src="Img/DSC_1043.jpg">
+								</div>
+								<div class="Name">
+									<strong>Willy Mabilah</strong>
+									<span>@Mabilah Mshadaah</span>
+								</div>
+							</div>
+						</div>
+						<div class="comment">
+							<p>
+								Lorem, ipsum dolor sit amet consectetur elit. ducimus vero sed odit, 
+								exercitationem impedit amet tempora molestias quae odio repellat.
+							</p>
+						</div>
+					</div>
+					<div class="comment-box">
+						<div class="box-top">
+							<div class="profil">
+								<div class="profil-image">
+									<img src="Img/DSC_45681.jpg">
+								</div>
+								<div class="Name">
+									<strong>Michael Munyau</strong>
+									<span>@Mickey KE</span>
+								</div>
+							</div>
+						</div>
+						<div class="comment">
+							<p>
+								Lorem, ipsum dolor sit amet consectetur elit. ducimus vero sed odit, 
+								exercitationem impedit amet tempora molestias quae odio repellat.
+							</p>
+						</div>
+					</div>
+				</div>
+				
+			</section>
+			<section class="content">
+				<div class="grid grid--2">
+					<div class="grid-wrap">
+						<div class="grid__item"><div class="grid__item-inner" style="background-image:url(img/1.jpg)"></div></div>
+						<div class="grid__item"><div class="grid__item-inner" style="background-image:url(img/2.jpg)"></div></div>
+						<div class="grid__item"><div class="grid__item-inner" style="background-image:url(img/3.jpg)"></div></div>
+						<div class="grid__item"><div class="grid__item-inner" style="background-image:url(img/4.jpg)"></div></div>
+						<div class="grid__item"><div class="grid__item-inner" style="background-image:url(img/5.jpg)"></div></div>
+						<div class="grid__item"><div class="grid__item-inner" style="background-image:url(img/6.jpg)"></div></div>
+						<div class="grid__item"><div class="grid__item-inner" style="background-image:url(img/7.jpg)"></div></div>
+						<div class="grid__item"><div class="grid__item-inner" style="background-image:url(img/8.jpg)"></div></div>
+						<div class="grid__item"><div class="grid__item-inner" style="background-image:url(img/9.jpg)"></div></div>
+						<div class="grid__item"><div class="grid__item-inner" style="background-image:url(img/10.jpg)"></div></div>
+						<div class="grid__item"><div class="grid__item-inner" style="background-image:url(img/11.jpg)"></div></div>
+						<div class="grid__item"><div class="grid__item-inner" style="background-image:url(img/12.jpg)"></div></div>
+						<div class="grid__item"><div class="grid__item-inner" style="background-image:url(img/13.jpg)"></div></div>
+						<div class="grid__item"><div class="grid__item-inner" style="background-image:url(img/14.jpg)"></div></div>
+						<div class="grid__item"><div class="grid__item-inner" style="background-image:url(img/15.jpg)"></div></div>
+						<div class="grid__item"><div class="grid__item-inner" style="background-image:url(img/16.jpg)"></div></div>
+						<div class="grid__item"><div class="grid__item-inner" style="background-image:url(img/17.jpg)"></div></div>
+						<div class="grid__item"><div class="grid__item-inner" style="background-image:url(img/18.jpg)"></div></div>
+						<div class="grid__item"><div class="grid__item-inner" style="background-image:url(img/19.jpg)"></div></div>
+						<div class="grid__item"><div class="grid__item-inner" style="background-image:url(img/20.jpg)"></div></div>
+						<div class="grid__item"><div class="grid__item-inner" style="background-image:url(img/21.jpg)"></div></div>
+						<div class="grid__item"><div class="grid__item-inner" style="background-image:url(img/22.jpg)"></div></div>
+						<div class="grid__item"><div class="grid__item-inner" style="background-image:url(img/23.jpg)"></div></div>
+						<div class="grid__item"><div class="grid__item-inner" style="background-image:url(img/24.jpg)"></div></div>
+						<div class="grid__item"><div class="grid__item-inner" style="background-image:url(img/25.jpg)"></div></div>
+						<div class="grid__item"><div class="grid__item-inner" style="background-image:url(img/26.jpg)"></div></div>
+						<div class="grid__item"><div class="grid__item-inner" style="background-image:url(img/27.jpg)"></div></div>
+						<div class="grid__item"><div class="grid__item-inner" style="background-image:url(img/28.jpg)"></div></div>
+						<div class="grid__item"><div class="grid__item-inner" style="background-image:url(img/29.jpg)"></div></div>
+						<div class="grid__item"><div class="grid__item-inner" style="background-image:url(img/30.jpg)"></div></div>
+						<div class="grid__item"><div class="grid__item-inner" style="background-image:url(img/31.jpg)"></div></div>
+						<div class="grid__item"><div class="grid__item-inner" style="background-image:url(img/32.jpg)"></div></div>
+						<div class="grid__item"><div class="grid__item-inner" style="background-image:url(img/33.jpg)"></div></div>
+						<div class="grid__item"><div class="grid__item-inner" style="background-image:url(img/34.jpg)"></div></div>
+						<div class="grid__item"><div class="grid__item-inner" style="background-image:url(img/35.jpg)"></div></div>
+						<div class="grid__item"><div class="grid__item-inner" style="background-image:url(img/36.jpg)"></div></div>
+						<div class="grid__item"><div class="grid__item-inner" style="background-image:url(img/37.jpg)"></div></div>
+						<div class="grid__item"><div class="grid__item-inner" style="background-image:url(img/38.jpg)"></div></div>
+						<div class="grid__item"><div class="grid__item-inner" style="background-image:url(img/39.jpg)"></div></div>
+						<div class="grid__item"><div class="grid__item-inner" style="background-image:url(img/40.jpg)"></div></div>
+						<div class="grid__item"><div class="grid__item-inner" style="background-image:url(img/41.jpg)"></div></div>
+						<div class="grid__item"><div class="grid__item-inner" style="background-image:url(img/42.jpg)"></div></div>
+						<div class="grid__item"><div class="grid__item-inner" style="background-image:url(img/43.jpg)"></div></div>
+						<div class="grid__item"><div class="grid__item-inner" style="background-image:url(img/44.jpg)"></div></div>
+						<div class="grid__item"><div class="grid__item-inner" style="background-image:url(img/45.jpg)"></div></div>
+						<div class="grid__item"><div class="grid__item-inner" style="background-image:url(img/46.jpg)"></div></div>
+						<div class="grid__item"><div class="grid__item-inner" style="background-image:url(img/47.jpg)"></div></div>
+						<div class="grid__item"><div class="grid__item-inner" style="background-image:url(img/48.jpg)"></div></div>
+					</div>
+				</div>
+				<h3 class="content__title">Impermanence <br>guides life's river.</h3>
+			</section>
+			<p class="credits">Made by <a href="">@Amoh</a></p>
+		</main>
+		<div class="container">
+			<h1>Welcome to Our Website</h1>
+		</div>
+		<footer>
+			<div class="footer-content">
+				<h2>Our Services</h2>
+				<ul>
+					<li>Web Design</li>
+					<li>Web Development</li>
+					<li>SEO</li>
+				</ul>
+			</div>
+			<div class="footer-content">
+				<h2>About Us</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nec sapien et nisl sollicitudin fermentum. Morbi sit amet turpis.</p>
+			</div>
+			<div class="footer-content">
+				<h2>Contact Us</h2>
+				<p>Email: example@email.com</p>
+				<p>Phone: +1 123 456 789</p>
+			</div>
+		</footer>
+		<script src="https://tympanus.net/codrops/adpacks/cda_sponsor.js"></script>
+		<script src="js/gsap.min.js"></script>
+		<script src="js/ScrollTrigger.min.js"></script>
+		<script src="js/lenis.min.js"></script>
+		<script src="js/imagesloaded.pkgd.min.js"></script>
+		<script type="module" src="js/index.js"></script>
+	</body>
+</html>
